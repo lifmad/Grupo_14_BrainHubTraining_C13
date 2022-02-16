@@ -8,7 +8,7 @@ Nuestro equipo está conformado por un grupo de profesionales con altas competen
 
 ### Beimar Delgado 
 - 28 años.
-- Experto en Figma.
+- Experto en Wireframes.
 
 ### Valeria Sainz
 - 30 años.
@@ -24,11 +24,16 @@ Nuestro equipo está conformado por un grupo de profesionales con altas competen
 
 ## Referentes
 
-  * Udemy
-  * Coursera
-  * Platzi
-  * edX
-  * Crehana
- 
+  - [Udemy](https://www.udemy.com)
+  - [Coursera](https://es.coursera.org)
+  - [Platzi](https://platzi.com)
+  - [edX](https://www.edx.org)
+  - [Crehana](https://www.crehana.com/ar)
+   
 Estos sitios web constituyen las plataformas líderes en el mercado de cursos online. Se analizó el diseño teniendo en cuenta tanto la estructura como los colores utilizados en las diferentes secciones.
 
+## Wireframes
+
+- [Home](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/home)
+- [Detalle de producto](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/DetalleProducto)
+- [Login y Formulario de registro](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/Login%20-%20Formulario%20de%20registro)
