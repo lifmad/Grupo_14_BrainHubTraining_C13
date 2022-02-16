@@ -7,6 +7,8 @@ Nuestros cursos están dirigidos a cualquier persona que quiera adquirir nuevos 
 Nuestro equipo está conformado por un grupo de profesionales con altas competencias en la enseñanza de educación no formal.
 
 ### Beimar Delgado 
+- 28 años.
+- Estudiante de Programacion Web.
 
 ### Valeria Sainz
 
