@@ -8,14 +8,19 @@ Nuestro equipo está conformado por un grupo de profesionales con altas competen
 
 ### Beimar Delgado 
 - 28 años.
-- Estudiante de Programacion Web.
+- Experto en Figma.
 
 ### Valeria Sainz
+- 30 años.
+- Experta en Back-end.
 
 ### Jhon Gonzalez
-Soy Licenciado en educación, con una amplia experiencia en el diseño de recursos didácticos para espacios de enseñanza no formal y con un alto compromiso crítico y social. Soy un apasionado por las ciencias y la tecnología, y me he venido desempeñando como instructor desde la fundación de nuetra plataforma.
+- 65 años.
+- Experto en Front-end.
 
 ### Matias Martorell
+- 45 años.
+- Experto en Java.
 
 ## Referentes
 
