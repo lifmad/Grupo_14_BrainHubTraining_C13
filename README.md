@@ -37,3 +37,6 @@ Estos sitios web constituyen las plataformas líderes en el mercado de cursos on
 - [Home](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/home)
 - [Detalle de producto](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/DetalleProducto)
 - [Login y Formulario de registro](https://github.com/lifmad/Grupo_14_BrainHubTraining_C13/tree/main/Wireframes/Login%20-%20Formulario%20de%20registro)
+
+## Link de Trello
+- [Trello](https://trello.com/b/2KGRHfAn/grupo-14-c-13)
