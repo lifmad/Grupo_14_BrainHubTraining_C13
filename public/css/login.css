@@ -1,3 +1,5 @@
+@import url('register.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ header#nav-bar {
 }
 
 header div.nav-bar {
-    height: 70px;
+    height: 50px;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -47,7 +49,7 @@ header div .main-movil {
 
 .nav-container {
     position: absolute;
-    top: 70px;
+    top: 50px;
     bottom: 0;
     background-color: #D4ECDD;
     width: 100%;
@@ -63,17 +65,16 @@ header div .main-movil {
 
 ul.nav-container li.list-nav a{
     color: rgb(199, 59, 24);
-    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
 }
+
 
 header div .close {
     display: none;
 }
 
 #nav-bar:target .nav-container {
-   /* height: calc(100vh - 80px); */
     clip-path: circle(100% at center);
 }
 
@@ -83,6 +84,10 @@ header div .close {
 
 #nav-bar:target .close {
     display: flex;
+}
+
+ul.nav-container ul li a {
+    display: none;
 }
 
 
@@ -187,6 +192,15 @@ section.container-login .container-form .btn-register {
     height: 37px;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+section.container-login .container-form .btn-register:hover {
+    background-color: rgb(226, 216, 216);
+    box-shadow:  0 5px 5px grey;
 }
 
 section.container-login .input-container {
@@ -204,10 +218,18 @@ section.container-login .container-form .check-remember {
     margin-top: 1rem;
 }
 
-section.container-login .container-form p.link_pass-recover {
-    margin-bottom: 30px;
+section .container-form p.link_pass-recover a {
+    cursor: pointer;
+    color: blue;
+    font-size: 14px;
     cursor: pointer;
 }
+
+section .container-form p.link_pass-recover {
+    margin-bottom: 30px;
+}
+
+
 
 /*         FOOTER         */
 
@@ -215,25 +237,30 @@ footer.footer-container {
     display: flex;
     padding: 1rem;
     flex-direction: column;
-    max-width: 550px;
     margin: 0 auto;
     align-items: center;
     background-color: #345B63;
 }
 
+footer.footer-container .about-us {
+    text-align: center;
+}
+
 footer.footer-container .logo {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    width: 80px;
 }
 
 footer.footer-container .about-text {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 footer.footer-container section h3 {
-    margin: 25px 0 15px;
+    margin: 25px 0 10px;
     color: black;
     font-weight: 700;
-    text-shadow:  3px 3px 3px white;
+    text-shadow: 5px 1px 5px #ffff;
 }
 
 footer.footer-container section li {
@@ -259,7 +286,7 @@ footer.footer-container section .cont-curs-reds {
 }
 
 footer.footer-container hr {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     height: 1px;
     width: 100%;
     background-color: black;
@@ -292,4 +319,211 @@ footer.footer-container section  li .fa-instagram-square {
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+
+/* -------------Media Queries----------------*/
+
+@media screen and (min-width: 480px) {
+
+    /*      FOOTER       */
+    footer.footer-container {
+        padding: 1rem;
+        max-width: none;
+        margin: 0;
+    }
+
+    footer.footer-container section {
+        width: 100%;
+    }
+
+    footer.footer-container section.about-us {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer.footer-container .logo {
+        margin: 25px 0 10px;
+    }
+    
+    footer.footer-container .about-text {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header#nav-bar {
+        background-color: #112031;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-bottom: 50px;
+    }
+    
+    .logo {
+        width: 130px;
+    }
+    
+    header div.nav-bar {
+        height: 0;
+        padding: 0;
+        width: 20%;
+    }
+    
+    header div .main-movil {
+        display: none;
+    }
+    
+    .nav-container {
+        position: relative;
+        top: 0px;
+        background-color: #11203100;
+        justify-content: space-between;
+        flex-direction: row;
+        clip-path: none;
+        transition: none;
+    }
+    
+    
+    ul.nav-container li.list-nav a{
+        color: rgb(199, 59, 24);
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    ul.nav-container .sub_list-nav {
+        margin-top: 10px;
+    }
+
+    ul.nav-container li.list-nav {
+        padding: 10px 5px;
+        margin-left: 20px;
+    }
+
+    ul.nav-container li:hover  {
+        background-color: rgba(255, 255, 255, 0.459);
+    }
+    
+    ul.nav-container ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    ul.nav-container ul {
+        display: none;
+        position: absolute;
+        background-color: #112031;
+        min-width: 130px;
+        margin-left: -7px;
+        padding-top: 8px;
+    }
+
+    .nav-container li:hover ul {
+        display: block;
+    }
+
+
+    /*    ----------   FORM   -----------      */
+    
+    section.container-login {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 60px;
+        box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.21);
+        -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.21);
+        -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.21);
+    }
+    
+    section.container-login h2 {
+        margin-bottom: 30px;
+    }
+    
+    section.container-login .btn {
+        font-size: 1rem;
+        height: 50px;
+    }
+    
+    section.container-login .container-form .btn-log:hover {
+        font-size: 23px;
+    }
+    
+    section.container-login .container-form .btn-log {
+        font-size: 1.2rem;
+    }
+    
+    section.container-login .container-form .btn-register {
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    
+    section.container-login .input-container {
+        width: 100%;
+    }
+    
+    section.container-login .container-form .input-log {
+        height: 60px;
+        margin: 10px 0;
+    }
+    
+    
+    /*         FOOTER         */
+    
+    
+    
+    footer.footer-container section li {
+        padding: 5px;
+    }
+      
+    footer.footer-container section a:hover {
+        color: white;
+    }
+    
+    footer.footer-container section .cont-curs-reds {
+        max-width: 500px;
+    }
+    
+    footer.footer-container hr {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width:1024px) {       
+    ul.nav-container li.list-nav a {
+        font-size: 1rem;
+    }
+
+    ul.nav-container li.list-nav {
+        margin-left: 50px;
+    }
+
+    ul.nav-container li.list-nav:hover  {
+        background-color: rgba(255, 255, 255, 0.459);
+    }
+    
+    
+    /*         FOOTER         */
+    
+    footer.footer-container section {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    footer.footer-container section li {
+        padding: 5px;
+    }
+    
+    footer.footer-container section .cont-curs-reds {
+        justify-content: space-around;
+        max-width: none;
+        width: 55%;
+        margin-right: 20px;
+    }
 }

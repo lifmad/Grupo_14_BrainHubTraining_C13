@@ -1,3 +1,155 @@
-body {
-    background-color: red;
+body.body-register {
+    background-color: #112031;
+}
+
+body.body-register section {
+    width: 100%;
+}
+
+/*      FORM-REGISTER      */
+
+#container-register {
+    max-width: 320px;
+    box-shadow: none;
+    color: white;
+}
+
+#container-register .title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+#container-register .slogan-register  {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#container-register .input-log {
+    height: 40px;
+    margin: 2px 0 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#container-register .date-log {
+    font-size: 1rem;
+}
+
+
+#container-register .container-form .conditions {
+    margin: 30px 0 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container-register .container-form .conditions span {
+    color: #34D69B;
+    cursor: pointer;
+}
+
+#container-register .container-form .log-in {
+    color: #34D69B;
+    font-weight: 700;
+}
+ 
+/*   -----------Media Queries----------    */
+
+@media screen and (min-width:768px) {
+    .body-register header#nav-bar {
+        margin-bottom: 0;
+    }
+    
+    /*    ----------   FORM   -----------      */
+    
+    section#container-register {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    #container-register .title {
+        font-size: 40px;
+    }
+    
+    #container-register .slogan-register  {
+        font-size: 1.2rem;
+    }
+    
+    #container-register .register-accounts {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 70px;
+    }
+    
+    #container-register .btn {
+        width: 320px;
+        height: 45px;
+    }
+    
+    #container-register .container-date {
+        display: flex;
+        max-width: 750px;
+        justify-content: space-evenly;
+        gap: 40px;   
+    }
+
+    #container-register .container-form .conditions {
+        font-size: 15px;
+    }
+    
+    #container-register .container-form .log-in {
+        color: #34D69B;
+        font-weight: 700;
+        font-size: 1rem;
+      
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*    ----------   FORM   -----------      */
+    
+    #container-register .register-accounts {
+        gap: 100px;
+    }
+    
+    #container-register .btn {
+        width: 350px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+    
+    #container-register .container-date {
+        max-width: 900px;
+        gap: 50px;   
+    }
+
+    #container-register .container-date .date-log {
+        font-size: 1.2rem;
+    }
+
+    #container-register .container-date .input-log {
+        height: 50px;
+    }
+
+    #container-register .container-form .conditions {
+        font-size: 18px;
+    }
+    
+    #container-register .container-form .account-exists {
+        font-size: 1rem;
+        margin: 40px 0 0;
+    }
+
+    #container-register .container-form .log-in {
+        font-size: 1.2rem;
+    }
 }
